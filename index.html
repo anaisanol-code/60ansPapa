@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Les 60 ans de Bertin Gober Anol</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Great+Vibes&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+--navy:#08173F;
+--gold:#D4AF37;
+--gold-light:#F3D67A;
+--white:#FFFFFF;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Cormorant Garamond', serif;
+background:
+linear-gradient(
+135deg,
+rgba(8,23,63,0.96),
+rgba(10,28,75,0.98)
+);
+color:white;
+min-height:100vh;
+overflow-x:hidden;
+position:relative;
+}
+
+/* Lumières dorées */
+
+body::before{
+content:"";
+position:fixed;
+top:-200px;
+left:-200px;
+width:500px;
+height:500px;
+background:rgba(212,175,55,0.08);
+border-radius:50%;
+filter:blur(80px);
+z-index:-1;
+}
+
+body::after{
+content:"";
+position:fixed;
+bottom:-200px;
+right:-200px;
+width:500px;
+height:500px;
+background:rgba(212,175,55,0.08);
+border-radius:50%;
+filter:blur(80px);
+z-index:-1;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:40px 20px 80px;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:50px 0;
+}
+
+.tagline{
+font-size:28px;
+font-style:italic;
+color:#f2f2f2;
+margin-bottom:20px;
+}
+
+.number{
+font-family:'Cinzel', serif;
+font-size:150px;
+font-weight:600;
+line-height:1;
+
+background:linear-gradient(
+180deg,
+#FFF6D5,
+#F6DE92,
+#D4AF37,
+#A97A10
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+text-shadow:
+0 0 20px rgba(212,175,55,0.3);
+}
+
+.ans{
+font-family:'Great Vibes', cursive;
+font-size:70px;
+margin-top:-25px;
+}
+
+.title{
+font-size:36px;
+margin-top:20px;
+font-weight:600;
+}
+
+.name{
+font-family:'Great Vibes', cursive;
+font-size:68px;
+color:var(--gold-light);
+margin-top:15px;
+}
+
+.date{
+margin-top:20px;
+font-size:24px;
+font-style:italic;
+color:#e5e5e5;
+}
+
+/* TITRE MENU */
+
+.section-title{
+text-align:center;
+font-family:'Cinzel', serif;
+font-size:42px;
+color:var(--gold);
+margin-bottom:35px;
+letter-spacing:2px;
+}
+
+/* CARTES */
+
+.card{
+background:rgba(255,255,255,0.06);
+backdrop-filter:blur(15px);
+
+border:1px solid rgba(212,175,55,0.25);
+
+border-radius:30px;
+
+padding:30px;
+
+margin-bottom:25px;
+
+box-shadow:
+0 10px 35px rgba(0,0,0,0.25),
+inset 0 0 0 1px rgba(255,255,255,0.03);
+}
+
+.card h2{
+font-family:'Cinzel', serif;
+text-align:center;
+font-size:28px;
+color:var(--gold);
+margin-bottom:20px;
+}
+
+.card ul{
+list-style:none;
+}
+
+.card li{
+padding:12px 0;
+font-size:24px;
+border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+.card li:last-child{
+border-bottom:none;
+}
+
+/* FOOTER */
+
+.footer{
+text-align:center;
+margin-top:50px;
+}
+
+.footer h3{
+font-family:'Great Vibes', cursive;
+font-size:60px;
+color:var(--gold);
+}
+
+.footer p{
+margin-top:15px;
+font-size:24px;
+line-height:1.7;
+}
+
+.quote{
+margin-top:25px;
+font-size:22px;
+font-style:italic;
+color:#d9d9d9;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.number{
+font-size:110px;
+}
+
+.ans{
+font-size:55px;
+}
+
+.name{
+font-size:48px;
+}
+
+.title{
+font-size:28px;
+}
+
+.date{
+font-size:20px;
+}
+
+.section-title{
+font-size:32px;
+}
+
+.card{
+padding:25px;
+}
+
+.card h2{
+font-size:22px;
+}
+
+.card li{
+font-size:20px;
+}
+
+.footer h3{
+font-size:48px;
+}
+
+.footer p,
+.quote{
+font-size:18px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="hero">
+
+<div class="tagline">
+Parce que certaines étapes méritent d'être célébrées...
+</div>
+
+<div class="number">60</div>
+
+<div class="ans">ans</div>
+
+<div class="title">
+Les 60 ans de
+</div>
+
+<div class="name">
+Bertin Gober Anol
+</div>
+
+<div class="date">
+Samedi 1er août 2026
+</div>
+
+</div>
+
+<h1 class="section-title">
+Notre Menu
+</h1>
+
+<div class="card">
+<h2>🍸 Cocktails & Apéritifs</h2>
+<ul>
+<li>Cocktail Signature</li>
+<li>Punch Maison</li>
+<li>Jus de Fruits Frais</li>
+<li>Softs Variés</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🍽 Entrées</h2>
+<ul>
+<li>Assortiment d'Amuse-Bouches</li>
+<li>Verrines Gourmandes</li>
+<li>Salade Fraîcheur</li>
+<li>Feuilletés du Chef</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🥘 Plats</h2>
+<ul>
+<li>Poulet Rôti aux Herbes</li>
+<li>Poisson Sauce Créole</li>
+<li>Riz Parfumé</li>
+<li>Légumes Sautés</li>
+<li>Gratin Maison</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>🍰 Desserts</h2>
+<ul>
+<li>Gâteau Anniversaire Prestige</li>
+<li>Tarte aux Fruits</li>
+<li>Mousse au Chocolat</li>
+<li>Salade de Fruits Frais</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>☕ Boissons</h2>
+<ul>
+<li>Café</li>
+<li>Thé</li>
+<li>Eaux</li>
+<li>Boissons Rafraîchissantes</li>
+</ul>
+</div>
+
+<div class="footer">
+
+<h3>Merci</h3>
+
+<p>
+Nous sommes honorés de partager ce moment unique avec vous.
+</p>
+
+<div class="quote">
+« Les plus beaux souvenirs sont ceux que l'on partage avec ceux que l'on aime. »
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
